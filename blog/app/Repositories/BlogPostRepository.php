@@ -27,7 +27,9 @@ class BlogPostRepository extends CoreRepository
         $result = $this->startConditions()
             ->select($columns)
             ->orderBy('id','DESC')
-            ->paginate(25);
+            ->paginate(25)
+            ;
+
 
         return $result;
     }
