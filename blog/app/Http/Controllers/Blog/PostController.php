@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Blog\Admin;
 use App\Models\BlogPost;
 use Illuminate\Http\Request;
 use App\Repositories\BlogPostRepository;
-
+use App\Http\Controllers\Blog;
 // Додаємо нові use
 use App\Repositories\BlogCategoryRepository;
 use App\Http\Requests\BlogPostUpdateRequest;
